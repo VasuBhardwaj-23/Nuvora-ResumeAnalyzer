@@ -1,59 +1,113 @@
+NUVORA - AI Resume Analyser 🚀
+
+Overview
+
+NUVORA is an AI-powered Resume Analyzer that intelligently evaluates resumes against job descriptions and provides actionable insights to improve them.
+
+It helps candidates optimize their resumes, align with job requirements, and significantly improve their chances of getting shortlisted.
+
 ---
 
-# **AI Resume Analyzer - Build Your Own AI-Powered Job Application Assistant! 🚀**  
+✨ Key Features
 
-## **Overview**  
-This project is an **AI-powered Resume Matcher** that analyzes resumes against job descriptions and provides actionable insights to improve them. Whether you're applying for jobs or optimizing your resume, this tool helps you **boost your chances of getting hired!**  
+✅ Extract text from PDF resumes
+✅ AI-powered analysis using LLM models (Gemini / Groq / LLM APIs)
+✅ Compare resumes with job descriptions
+✅ Generate resume match score (%)
+✅ Identify matching & missing skills
+✅ Provide structured improvement suggestions
+✅ Interactive analytics dashboard with visual insights
+✅ Clean and responsive UI built with Streamlit
 
-## **Features**  
-✅ Extract text from **PDF resumes**  
-✅ Process resumes using **Google Gemini AI**  
-✅ Compare resumes with job descriptions  
-✅ Generate **AI-powered resume scores & improvement suggestions**  
-✅ Build a user-friendly interface with **Streamlit**  
+---
 
-## **Installation & Setup**  
+🛠️ Tech Stack
 
-### ** Install Required Libraries**  
-```bash
+- Frontend/UI: Streamlit
+- Backend Logic: Python
+- AI Processing: LLM APIs (Gemini / Groq)
+- Data Handling: Pandas
+- Visualization: Plotly
+- File Processing: PyMuPDF, Pillow
+
+---
+
+⚙️ Installation & Setup
+
+1️⃣ Install Dependencies
+
 pip install pymupdf Pillow google-generativeai python-dotenv streamlit pandas plotly-express
-```
 
-### ** Set Up API Keys**  
-- Get an API key from **Google Gemini AI**  
-- Create a `.env` file and add:  
-  ```
-  GEMINI_API_KEY=your_api_key_here
-  ```
+---
 
-### ** Run the Application**  
-```bash
+2️⃣ Set Up API Key
+
+Create a ".env" file and add your API key:
+
+GEMINI_API_KEY=your_api_key_here
+
+(or configure your preferred LLM provider like Groq if used)
+
+---
+
+3️⃣ Run the Application
+
 streamlit run app.py
-```
 
 ---
 
-## **How It Works**  
+🧠 How It Works
 
-1️⃣ **Upload a Resume (PDF Format)**  
-2️⃣ **Paste a Job Description** into the text area  
-3️⃣ Click **Analyze Resume**  
-4️⃣ Get AI-generated insights, including:  
-   - **Resume Score**  
-   - **Matching Skills**  
-   - **Unmatched Skills**  
-   - **Improvement Suggestions**  
+1. Upload your Resume (PDF)
+2. Paste the Job Description
+3. Click Analyze Resume
+4. Get detailed insights:
+
+- 📊 Resume Match Score
+- ✅ Matching Skills
+- ⚠️ Missing Skills
+- 📌 Improvement Suggestions
 
 ---
 
-## **Project Structure**  
-```
-📂 AI-Resume-Matcher  
- ┣ 📂 pdf_images/         # Stores converted resume images  
- ┣ 📜 app.py              # Main Streamlit UI  
+📂 Project Structure
+
+📂 NUVORA-AI-Resume-Analyser  
+ ┣ 📂 pdf_images/         # Converted resume images  
+ ┣ 📜 app.py              # Streamlit UI  
  ┣ 📜 analyzer.py         # AI processing logic  
- ┣ 📜 requirements.txt    # Python dependencies  
- ┣ 📜 .env.example        # API key setup guide  
- ┗ 📜 README.md           # Project documentation  
-```
+ ┣ 📜 requirements.txt    # Dependencies  
+ ┣ 📜 .env.example        # API key setup  
+ ┗ 📜 README.md           # Documentation  
 
+---
+
+💡 Use Cases
+
+- Students preparing for placements
+- Job seekers optimizing resumes
+- Career switchers targeting new roles
+- Freelancers tailoring resumes for clients
+
+---
+
+🚀 Future Enhancements
+
+- Chat-based AI resume assistant
+- Resume rewriting suggestions
+- ATS (Applicant Tracking System) optimization
+- Multi-role resume comparison
+- Voice-based query support
+
+---
+
+👨‍💻 Author
+
+Built by Vasu Bhardwaj
+
+---
+
+⭐ Final Note
+
+NUVORA is designed to bridge the gap between your resume and job expectations using AI.
+Keep improving, keep applying — and let AI guide your journey 🚀

@@ -1,6 +1,8 @@
-NUVORA - AI Resume Analyser 🚀
+🚀 NUVORA - AI Resume Analyser
 
-Overview
+---
+
+🧠 Overview
 
 NUVORA is an AI-powered Resume Analyzer that intelligently evaluates resumes against job descriptions and provides actionable insights to improve them.
 
@@ -10,14 +12,15 @@ It helps candidates optimize their resumes, align with job requirements, and sig
 
 ✨ Key Features
 
-✅ Extract text from PDF resumes
-✅ AI-powered analysis using LLM models (Gemini / Groq / LLM APIs)
-✅ Compare resumes with job descriptions
-✅ Generate resume match score (%)
-✅ Identify matching & missing skills
-✅ Provide structured improvement suggestions
-✅ Interactive analytics dashboard with visual insights
-✅ Clean and responsive UI built with Streamlit
+- 📄 Extract text from PDF resumes
+- 🤖 AI-powered analysis using LLM models (Gemini / Groq)
+- 🔍 Compare resumes with job descriptions
+- 📊 Generate resume match score (%)
+- ✅ Identify matching skills
+- ⚠️ Highlight missing skills
+- 📌 Provide structured improvement suggestions
+- 📈 Interactive analytics dashboard with visual insights
+- 🎯 Clean and responsive UI built with Streamlit
 
 ---
 
@@ -25,7 +28,7 @@ It helps candidates optimize their resumes, align with job requirements, and sig
 
 - Frontend/UI: Streamlit
 - Backend Logic: Python
-- AI Processing: LLM APIs (Gemini / Groq)
+- AI Processing: Gemini / Groq APIs
 - Data Handling: Pandas
 - Visualization: Plotly
 - File Processing: PyMuPDF, Pillow
@@ -42,11 +45,11 @@ pip install pymupdf Pillow google-generativeai python-dotenv streamlit pandas pl
 
 2️⃣ Set Up API Key
 
-Create a ".env" file and add your API key:
+Create a ".env" file and add:
 
 GEMINI_API_KEY=your_api_key_here
 
-(or configure your preferred LLM provider like Groq if used)
+(or configure Groq if you're using it)
 
 ---
 
@@ -62,11 +65,10 @@ streamlit run app.py
 2. Paste the Job Description
 3. Click Analyze Resume
 4. Get detailed insights:
-
-- 📊 Resume Match Score
-- ✅ Matching Skills
-- ⚠️ Missing Skills
-- 📌 Improvement Suggestions
+   - 📊 Resume Match Score
+   - ✅ Matching Skills
+   - ⚠️ Missing Skills
+   - 📌 Improvement Suggestions
 
 ---
 
@@ -84,20 +86,20 @@ streamlit run app.py
 
 💡 Use Cases
 
-- Students preparing for placements
-- Job seekers optimizing resumes
-- Career switchers targeting new roles
-- Freelancers tailoring resumes for clients
+- 🎓 Students preparing for placements
+- 💼 Job seekers optimizing resumes
+- 🔄 Career switchers targeting new roles
+- 🧑‍💻 Freelancers tailoring resumes for clients
 
 ---
 
 🚀 Future Enhancements
 
-- Chat-based AI resume assistant
-- Resume rewriting suggestions
-- ATS (Applicant Tracking System) optimization
-- Multi-role resume comparison
-- Voice-based query support
+- 💬 Chat-based AI assistant
+- ✍️ Resume rewriting suggestions
+- 📄 ATS optimization
+- 🎯 Multi-role resume comparison
+- 🎤 Voice-based queries
 
 ---
 

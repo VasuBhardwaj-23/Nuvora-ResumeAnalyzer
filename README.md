@@ -1,6 +1,10 @@
-🚀 NUVORA - AI Resume Analyser
+<div align="center">🚀 NUVORA
 
----
+AI RESUME ANALYSER
+
+AI-Powered Job Application Assistant
+
+</div>---
 
 🧠 Overview
 
@@ -26,7 +30,7 @@ It helps candidates optimize their resumes, align with job requirements, and sig
 
 🛠️ Tech Stack
 
-- Frontend/UI: Streamlit
+- Frontend / UI: Streamlit
 - Backend Logic: Python
 - AI Processing: Gemini / Groq APIs
 - Data Handling: Pandas
@@ -45,7 +49,11 @@ pip install pymupdf Pillow google-generativeai python-dotenv streamlit pandas pl
 
 2️⃣ Set Up API Key
 
-Create a ".env" file and add:
+Create a file:
+
+.env
+
+Add:
 
 GEMINI_API_KEY=your_api_key_here
 
@@ -59,12 +67,12 @@ streamlit run app.py
 
 ---
 
-🧠 How It Works
+⚡ How It Works
 
 1. Upload your Resume (PDF)
 2. Paste the Job Description
 3. Click Analyze Resume
-4. Get detailed insights:
+4. Get:
    - 📊 Resume Match Score
    - ✅ Matching Skills
    - ⚠️ Missing Skills
@@ -74,13 +82,16 @@ streamlit run app.py
 
 📂 Project Structure
 
-📂 NUVORA-AI-Resume-Analyser  
- ┣ 📂 pdf_images/         # Converted resume images  
- ┣ 📜 app.py              # Streamlit UI  
- ┣ 📜 analyzer.py         # AI processing logic  
- ┣ 📜 requirements.txt    # Dependencies  
- ┣ 📜 .env.example        # API key setup  
- ┗ 📜 README.md           # Documentation  
+NUVORA-AI-Resume-Analyser/
+│
+├── pdf_images/
+│   └── (converted resume images)
+│
+├── app.py
+├── analyzer.py
+├── requirements.txt
+├── .env.example
+└── README.md
 
 ---
 
@@ -105,11 +116,12 @@ streamlit run app.py
 
 👨‍💻 Author
 
-Built by Vasu Bhardwaj
+Vasu Bhardwaj
 
 ---
 
 ⭐ Final Note
 
 NUVORA is designed to bridge the gap between your resume and job expectations using AI.
+
 Keep improving, keep applying — and let AI guide your journey 🚀
